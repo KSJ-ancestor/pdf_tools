@@ -5,6 +5,9 @@
 ## Features
 - PDF text extraction
 - PDF image extraction
+- PDF rotate
+- PDF reorder
+- PDF watermark
 
 ## License
 
