@@ -7,6 +7,15 @@
 ## pip install PyMuPDF PyPDF2 Pillow pycryptodome
 #################################################
 
+#################################################
+### Open Source Project
+
+### Source Code:
+### https://github.com/KSJ-ancestor/pdf_tools
+
+### Licensed under GNU AGPL v3
+#################################################
+
 from tkinter import *
 from tkinter import filedialog
 from tkinter import messagebox
@@ -106,7 +115,8 @@ def fn_pb_exit():
    window.config(cursor="arrow")
 
 def donothing():
-   messagebox.showinfo(VERSION,"[editor] \t Kim Seon Je \n\n\t ancestor@korea.kr \n\n\t cowpower@kakao.com")
+   messagebox.showinfo(VERSION,"[editor] \t Kim Seon Je \n\n\t ancestor@korea.kr \n\n\t cowpower@kakao.com \n\n [source] https://github.com/KSJ-ancestor/pdf_tools \n\n [license] Licensed under GNU AGPL v3")
+
 
 def showSystemMessage():
    state = tabs.tab(tab7)['state']
